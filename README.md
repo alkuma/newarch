@@ -44,5 +44,9 @@ At some point it may have been prudent to use one vendor for everything but it i
 * system should be highly available, minimal downtime for upgrades
 
 # Proposed Solution
+The proposed API documentation is available as listed below. 
+## Product Catalog API
+
+## Pricing API
 
 
