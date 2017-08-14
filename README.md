@@ -46,7 +46,7 @@ At some point it may have been prudent to use one vendor for everything but it i
 # Proposed Solution
 The proposed API documentation is available as listed below. 
 ## Product Catalog API
-
+[Catalog API Documentation](http://htmlpreview.github.io/?https://github.com/alkuma/newarch/blob/master/products-api.html)
 ## Pricing API
-
+[Pricing API Documentation](http://htmlpreview.github.io/?https://github.com/alkuma/newarch/blob/master/pricing-api.html)
 
