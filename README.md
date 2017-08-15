@@ -50,3 +50,8 @@ The proposed API documentation is available as listed below.
 ## Pricing API
 [Pricing API Documentation](http://htmlpreview.github.io/?https://github.com/alkuma/newarch/blob/master/pricing-api.html)
 
+# Microservice Implementation
+## Catalog Microservice
+The gradle project for the catalog microservice is here : https://github.com/alkuma/catalog-server
+## Pricing Microservice
+The gradle project for the pricing microservice is here : https://github.com/alkuma/pricing-server
