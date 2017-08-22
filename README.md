@@ -83,3 +83,16 @@ The proposed API documentation is available as listed below.
 The gradle project for the catalog microservice is here : https://github.com/alkuma/catalog-server
 ## Pricing Microservice
 The gradle project for the pricing microservice is here : https://github.com/alkuma/pricing-server
+### Service Discovery
+Service discovery is required for pricing microservice to function properly because pricing microservice internally calls catalog microservice. This is implemented currently using client side discovery. In a real world deployment this can be replaced with server side discovery.
+
+## Deployment and Load Balancing
+The current deployment is via tomcat webapps. The tomcat apps will be containerized using [Docker Tomcat Container](https://hub.docker.com/_/tomcat/). Subsequently load balancing will be performed via [Docker Node Clusters](https://docs.docker.com/docker-cloud/apps/load-balance-hello-world/).
+
+## Accessing the Services
+For the purpose of testing the services, there are these options:
+1. TestNG tests that can be run via an IDE like Intellij
+2. TestNG tests that can be run on the command line using `gradle test`
+3. Swagger provides a means to perform tests via its user interface.
+
+For accessing the services in the real world, a browser based UI will be provided, this can be developed in a good web framework like Angular2.
